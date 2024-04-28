@@ -37,5 +37,6 @@ Program that synchronizes two folders: source and replica. The program would mai
 
 
 ```bash
+./synchronize tests/source tests/target logs/logfile.log 5
 
 ```
