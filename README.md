@@ -19,7 +19,6 @@ Program that synchronizes two folders: source and replica. The program would mai
 
    ```bash
    python3 -m venv venv
-   pip install -r requirements.txt
    ```
 
 4. Run the program:
