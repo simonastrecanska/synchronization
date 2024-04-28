@@ -1,0 +1,153 @@
+2024-04-29 00:29:03,784 - sync_logger - INFO - Performing synchronization from path/to to path/endč
+2024-04-29 00:29:03,784 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:29:03,785 - sync_logger - INFO - Copied file: path/to/halooo to path/endč/halooo
+2024-04-29 00:29:03,786 - sync_logger - INFO - Copied file: path/to/hehhe to path/endč/hehhe
+2024-04-29 00:29:03,786 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:29:03,786 - sync_logger - INFO - Synchronization completed successfully. Waiting 10 seconds until next sync.
+2024-04-29 00:29:09,525 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:30:26,458 - sync_logger - ERROR - Source directory does not exist: tests/source
+2024-04-29 00:31:11,597 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:31:11,597 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:31:11,598 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:31:11,599 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:31:11,599 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:31:16,605 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:31:16,606 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:31:16,609 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:31:16,613 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:31:16,613 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:31:20,966 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:36:05,779 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:36:05,780 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:36:05,781 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:36:05,781 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:36:05,781 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:36:10,787 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:36:10,789 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:36:10,791 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:36:10,792 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:36:10,792 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:36:12,277 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:36:19,939 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:36:19,939 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:36:19,939 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:36:19,940 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:36:19,940 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:36:24,945 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:36:24,946 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:36:24,950 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:36:24,952 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:36:24,952 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:36:29,954 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:36:29,955 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:36:29,959 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:36:29,960 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:36:29,960 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:36:30,920 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:38:39,378 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:38:39,378 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:38:39,380 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:38:39,380 - sync_logger - ERROR - An unexpected error occurred: 'ThreadPoolExecutor' object has no attribute 'as_completed'
+2024-04-29 00:39:08,550 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:39:08,550 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:39:08,551 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:39:08,552 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:39:08,552 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:39:13,557 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:39:13,558 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:39:13,562 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:39:13,564 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:39:13,564 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:39:15,714 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:39:32,508 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:39:32,508 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:39:32,509 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:39:32,509 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:39:32,509 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:39:37,515 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:39:37,515 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:39:37,520 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:39:37,521 - sync_logger - INFO - Synchronization complete
+2024-04-29 00:39:37,521 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:39:39,280 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:42:21,485 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:42:21,485 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:42:21,485 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:42:21,485 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:42:26,490 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:42:26,491 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:42:26,494 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:42:26,494 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:42:29,118 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:43:03,960 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:43:03,960 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:43:03,960 - sync_logger - INFO - Created directory: tests/target/testfolder
+2024-04-29 00:43:03,961 - sync_logger - INFO - Copied file: tests/source/testfolder/hello.py to tests/target/testfolder/hello.py
+2024-04-29 00:43:03,962 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:43:03,962 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:43:08,967 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:43:08,968 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:43:08,972 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:43:08,972 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:43:11,806 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:43:37,529 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:43:37,529 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:43:37,530 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:43:37,530 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:43:42,536 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:43:42,537 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:43:42,544 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:43:42,545 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:43:47,549 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:43:47,550 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:43:47,553 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:43:47,553 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:43:50,046 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:44:08,370 - sync_logger - ERROR - Target directory does not exist: tests/target
+2024-04-29 00:44:08,370 - sync_logger - INFO - Target directory created: tests/target
+2024-04-29 00:44:08,370 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:44:08,370 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:44:08,371 - sync_logger - INFO - Created directory: tests/target/testfolder
+2024-04-29 00:44:08,372 - sync_logger - INFO - Copied file: tests/source/test.py to tests/target/test.py
+2024-04-29 00:44:08,372 - sync_logger - INFO - Copied file: tests/source/testfolder/hello.py to tests/target/testfolder/hello.py
+2024-04-29 00:44:08,372 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:44:08,372 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:44:13,378 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:44:13,379 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:44:13,384 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:44:13,384 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:44:18,390 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:44:18,391 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:44:18,396 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:44:18,396 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:44:23,402 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:44:23,402 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:44:23,407 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:44:23,407 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:44:23,990 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:51:06,390 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:51:06,390 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:51:06,391 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:51:06,391 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:51:07,947 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
+2024-04-29 00:51:15,027 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:51:15,027 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:51:15,028 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:51:15,028 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:51:20,032 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:51:20,033 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:51:20,037 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:51:20,037 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:51:25,042 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:51:25,044 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:51:25,048 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:51:25,048 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:51:30,052 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:51:30,053 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:51:30,057 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:51:30,057 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:51:35,062 - sync_logger - INFO - Performing synchronization from tests/source to tests/target
+2024-04-29 00:51:35,063 - sync_logger - INFO - Starting synchronization process...
+2024-04-29 00:51:35,068 - sync_logger - INFO - Synchronization complete.
+2024-04-29 00:51:35,068 - sync_logger - INFO - Synchronization completed successfully. Waiting 5 seconds until next sync.
+2024-04-29 00:51:36,261 - sync_logger - INFO - Synchronization process was manually interrupted by the user.
