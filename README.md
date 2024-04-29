@@ -15,8 +15,7 @@ Program that synchronizes two folders: source and replica. The program would mai
    cd synchronization
    ```
 
-3. Install dependencies:
-
+3. Create the Virtual Environment:
    ```bash
    python3 -m venv venv
    ```
