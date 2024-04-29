@@ -31,6 +31,9 @@ Program that synchronizes two folders: source and replica. The program would mai
    - `log_file`: Path to the log file.
    - `interval`: Synchronization interval in seconds (default: 100).
 
+If you are using Windows, you must uncomment the line venv\Scripts\activate in the synchronize file
+and delete the line source venv/bin/activate, which is for macOS and Linux.
+
 ## Example
 If you want to try it out, I left a test file on which you can try it out
 
