@@ -10,7 +10,7 @@ def parse_args():
     parser.add_argument('source', help='Source directory path')
     parser.add_argument('target', help='Target directory path')
     parser.add_argument('log_file', help='Log file path')
-    parser.add_argument('interval', type=int, nargs='?', default=100, help='Synchronization interval in seconds (default: 300)')
+    parser.add_argument('interval', type=int, nargs='?', default=100, help='Synchronization interval in seconds (default: 100)')
     return parser.parse_args()
 
 def main():
