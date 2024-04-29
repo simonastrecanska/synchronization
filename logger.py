@@ -1,26 +1,29 @@
 import logging
 
 def setup_logging(log_file='logs/synchronization.log'):
+    # Get an existing logger or create a new one if it doesn't exist.
     logger = logging.getLogger('sync_logger')
-    if not logger.handlers:  # Check if handlers are already set up
+    
+    # Prevent adding multiple handlers to the logger if it's already set up.
+    if not logger.handlers:
         logger.setLevel(logging.DEBUG)
 
-        # Create file handler which logs even debug messages
-        fh = logging.FileHandler(log_file)
-        fh.setLevel(logging.DEBUG)
+        # File handler to log messages into a file.
+        file_handler = logging.FileHandler(log_file)
+        file_handler.setLevel(logging.DEBUG)
 
-        # Create console handler with a higher log level
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.INFO)
+        # Console handler to output messages to the standard output.
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(logging.INFO)  # Higher threshold to avoid cluttering the console with debug messages.
 
-        # Create formatters and add them to the handlers
+        # Define output formats for each handler.
         file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         console_formatter = logging.Formatter('%(levelname)s - %(message)s')
-        fh.setFormatter(file_formatter)
-        ch.setFormatter(console_formatter)
+        file_handler.setFormatter(file_formatter)
+        console_handler.setFormatter(console_formatter)
 
-        # Add the handlers to the logger
-        logger.addHandler(fh)
-        logger.addHandler(ch)
+        # Attach handlers to the logger.
+        logger.addHandler(file_handler)
+        logger.addHandler(console_handler)
 
     return logger
