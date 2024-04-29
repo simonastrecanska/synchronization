@@ -13,6 +13,6 @@ def run_sync_loop(sync_config, logger):
             logger.info(f"Synchronization completed successfully. Waiting {sync_config.interval} seconds until next sync.")
             time.sleep(sync_config.interval)
     except KeyboardInterrupt:
-        logger.info("Synchronization process was manually interrupted by the user.")
+        logger.info("Synchronization process was interrupted by the user.")
     except Exception as e:
         logger.error(f"An unexpected error occurred: {e}")
