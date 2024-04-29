@@ -24,16 +24,16 @@ Program that synchronizes two folders: source and replica. The program would mai
 4. Run the program:
 
    ```bash
-   ./synchronize <source_directory> <target_directory> <log_file> [--interval INTERVAL]
+   ./synchronize source_directory target_directory log_file interval
    ```
 
-   - `<source_directory>`: Path to the source directory.
-   - `<target_directory>`: Path to the target directory.
-   - `<log_file>`: Path to the log file.
-   - `--interval INTERVAL`: Synchronization interval in seconds (default: 100).
+   - `source_directory`: Path to the source directory.
+   - `target_directory`: Path to the target directory.
+   - `log_file`: Path to the log file.
+   - `interval`: Synchronization interval in seconds (default: 100).
 
 ## Example
-
+If you want to try it out, I left a test file on which you can try it out
 
 ```bash
 ./synchronize tests/source tests/target logs/logfile.log 5
