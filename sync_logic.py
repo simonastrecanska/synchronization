@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 import json
 
 def get_mod_time(path):
-    # Return the last modification time of a file or directory.
+     # Return the last modification time of a file or directory.
     return os.path.getmtime(path)
 
 def load_mod_log():
@@ -17,7 +17,7 @@ def load_mod_log():
     return {}
 
 def save_mod_log(mod_log):
-    # Save the current state of the synchronization log to a JSON file.
+     # Save the current state of the synchronization log to a JSON file.
     mod_log_path = os.path.join(os.path.dirname(__file__), 'logs', 'sync_mod_log.json')
     with open(mod_log_path, 'w') as f:
         json.dump(mod_log, f)
@@ -27,6 +27,7 @@ def delete_mod_log():
     mod_log_path = os.path.join(os.path.dirname(__file__), 'logs', 'sync_mod_log.json')
     try:
         os.remove(mod_log_path)
+        print("Synchronization log deleted successfully.")
     except OSError as e:
         print(f"Error: {e.strerror}")
 
@@ -57,13 +58,15 @@ def copy_file_or_directory(src_path, dest_path, logger):
 def compare_and_sync_files(source, target, logger, mod_log):
     with ThreadPoolExecutor() as executor:
         future_to_file = {}
-        # Walk through the source directory and prepare to synchronize each item.
+         # Walk through the source directory and prepare to synchronize each item.
         for root, dirs, files in os.walk(source):
-            for name in dirs + files:
+            for name in dirs + files: 
                 src_path = os.path.join(root, name)
+                rel_path = os.path.relpath(src_path, source)
                 dest_path = os.path.join(target, rel_path)
-                future = executor.submit(copy_file_or_directory, src_path, dest_path, logger)
-                future_to_file[future] = (src_path, dest_path)
+                if not os.path.exists(dest_path) or get_mod_time(src_path) != get_mod_time(dest_path):
+                    future = executor.submit(copy_file_or_directory, src_path, dest_path, logger)
+                    future_to_file[future] = (src_path, dest_path)
 
         for future in future_to_file:
             src_path, dest_path = future_to_file[future]
@@ -77,13 +80,15 @@ def delete_extra_files(source, target, logger, mod_log):
     for root, dirs, files in os.walk(target, topdown=False):
         for name in dirs + files:
             target_path = os.path.join(root, name)
-            if not os.path.exists(os.path.join(source, os.path.relpath(target_path, target))):
+            src_path = os.path.join(source, os.path.relpath(target_path, target))
+            if not os.path.exists(src_path):
                 try:
                     if os.path.isdir(target_path):
                         shutil.rmtree(target_path)
+                        logger.info(f"Removed directory: {target_path}")
                     else:
                         os.remove(target_path)
-                    logger.info(f"Removed {target_path}")
+                        logger.info(f"Removed file: {target_path}")
                 except Exception as e:
                     logger.error(f"Failed to remove {target_path}: {str(e)}")
 
